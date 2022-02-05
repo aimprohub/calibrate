@@ -26,7 +26,6 @@ packaging==20.9
 Pillow==8.1.0
 pipwin==0.5.1
 psycopg2==2.9.1
-PyAudio==0.2.11
 PyAutoGUI==0.9.52
 pycodestyle==2.7.0
 pycparser==2.20
