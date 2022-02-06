@@ -11,12 +11,12 @@ app = Flask(__name__)
 
 app.secret_key = 'your secret key'
 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'root'
-#app.config['MYSQL_HOST'] = 'aimdb-instance-1.ccuhjxtwycfp.us-east-1.rds.amazonaws.com'
-#app.config['MYSQL_USER'] = 'aimuser'
-#app.config['MYSQL_PASSWORD'] = 'first#1234'
+#app.config['MYSQL_HOST'] = 'localhost'
+#app.config['MYSQL_USER'] = 'root'
+#app.config['MYSQL_PASSWORD'] = 'root'
+app.config['MYSQL_HOST'] = 'aimdb-instance-1.ccuhjxtwycfp.us-east-1.rds.amazonaws.com'
+app.config['MYSQL_USER'] = 'aimuser'
+app.config['MYSQL_PASSWORD'] = 'first#1234'
 
 app.config['MYSQL_DB'] = 'calibration'
 mysql = MySQL(app)
