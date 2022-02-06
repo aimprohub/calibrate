@@ -604,7 +604,7 @@ def jason_table():
     return render_template('json_table.html')
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0') 
+    app.run() 
 
 
 
